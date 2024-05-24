@@ -1,9 +1,9 @@
 
 
 using System.ComponentModel.DataAnnotations.Schema;
-using InmobiliariaGutierrez.Models.VO;
+using APIINMOBILIARIA.Models.VO;
 
-namespace Laboratorio_3.Models.VO;
+namespace APIINMOBILIARIA.Models.VO;
 
 public class Inmueble
 {

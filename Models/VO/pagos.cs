@@ -1,7 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using InmobiliariaGutierrez.Models.VO;
 
-namespace InmobiliariaGutierrez.Models.VO;
+namespace APIINMOBILIARIA.Models.VO;
 
 public class pagos
 {

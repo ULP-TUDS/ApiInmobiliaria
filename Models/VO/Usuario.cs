@@ -2,7 +2,7 @@
 
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Laboratorio_3.Models.VO;
+namespace APIINMOBILIARIA.Models.VO;
 
 
 	public class Usuario

@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace InmobiliariaGutierrez.Models.VO;
+namespace APIINMOBILIARIA.Models.VO;
 
 public class Inmuebletipos
 {[Key]

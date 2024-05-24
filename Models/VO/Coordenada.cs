@@ -1,4 +1,4 @@
-namespace InmobiliariaGutierrez.Models.VO
+namespace APIINMOBILIARIA.Models.VO
 {
     public class Coordenada
     {   

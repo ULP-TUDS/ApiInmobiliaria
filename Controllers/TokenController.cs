@@ -1,20 +1,18 @@
-using System;
-using System.Collections.Generic;
+
 using Microsoft.AspNetCore.Mvc;
 
-using Microsoft.Extensions.Logging;
-using Api.Net.Models;
-using Microsoft.AspNetCore.Authorization;
+
+
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Security.Claims;
-using Laboratorio_3.Models.VO;
-using Laboratorio_3.Models;
+using APIINMOBILIARIA.Models;
+
 using Microsoft.EntityFrameworkCore;
 // Asegúrate de que este espacio de nombres es correcto y contiene RepositorioContrato
 
-namespace Api.Net.Controllers
+namespace APIINMOBILIARIA.Controllers
 {
     public class TokenController : Controller
     {

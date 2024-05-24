@@ -5,10 +5,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Laboratorio_3.Models;
+using APIINMOBILIARIA.Models;
 using MimeKit;
 using MailKit.Net.Smtp;
 using System.Threading.Tasks;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 builder.WebHost.UseUrls("http://localhost:5000", "https://localhost:5001", "http://*:5000", "https://*:5001");

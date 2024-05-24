@@ -5,7 +5,7 @@
     ocupado en esas fechas por otro contrato*/
 
     using System.ComponentModel.DataAnnotations.Schema;
-using Laboratorio_3.Models.VO;
+using APIINMOBILIARIA.Models.VO;
 
 
 namespace InmobiliariaGutierrez.Models.VO;

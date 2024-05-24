@@ -2,35 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using Laboratorio_3.Models.VO;
+using APIINMOBILIARIA.Models.VO;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
-using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
-using Api.Net.Models;
-using Dotnet.Models.VO;
-using InmobiliariaGutierrez.Models.VO;
-using Laboratorio_3.Models.VO;
-using MailKit.Net.Smtp;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Cryptography.KeyDerivation;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.IdentityModel.Tokens;
-using MimeKit;
 
-namespace Api.Net.Models
+using Microsoft.IdentityModel.Tokens;
+
+using System.Text;
+
+
+namespace APIINMOBILIARIA.Models
 {
     public class GenerarToken
     {

@@ -2,10 +2,10 @@
 using InmobiliariaGutierrez.Models.VO;
 using Microsoft.EntityFrameworkCore;
 
-using Laboratorio_3.Models.VO;
+using APIINMOBILIARIA.Models.VO;
 
 
-namespace Laboratorio_3.Models
+namespace APIINMOBILIARIA.Models
 
 {
 	public class DataContext : DbContext

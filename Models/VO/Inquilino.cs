@@ -1,7 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using InmobiliariaGutierrez.Models.VO;
 
-namespace InmobiliariaGutierrez.Models.VO;
+namespace APIINMOBILIARIA.Models.VO;
 /*Cuando el inquilino viene a alquilar un local se lo entrevista
 solicitando sus datos personales. ABM inquilino. DNI, nombre
 completo y datos de contacto.*/

@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using InmobiliariaGutierrez.Models.VO;
-using Laboratorio_3.Models.VO;
+using APIINMOBILIARIA.Models.VO;
 
-namespace dotnet.VO
+namespace APIINMOBILIARIA.VO
 {
 	public class Conectado
 	{
