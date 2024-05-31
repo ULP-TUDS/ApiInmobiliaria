@@ -45,6 +45,30 @@ Console.WriteLine("hola");
     return Ok(inmueblesDelPropietario);
 
 }
+
+
+[HttpGet("GetInmueblescontrato")]
+public async Task<IActionResult> GetInmueblescontrato()
+{
+    var user = HttpContext.User;
+    var userIdClaim = user.FindFirstValue(ClaimTypes.NameIdentifier);
+
+    if (int.TryParse(userIdClaim, out int userId))
+    {
+        // Obtén los inmuebles del propietario que tienen contratos asociados
+        var inmueblesDelPropietario = await contexto.Inmuebles
+            .Where(i => i.PropietarioId == userId && 
+                        contexto.Contratos.Any(c => c.InmuebleId == i.Id))
+            .ToListAsync();
+
+        return Ok(inmueblesDelPropietario);
+    }
+    else
+    {
+        return BadRequest("Invalid user ID format in token");
+    }
+}
+
 [HttpGet("inmueble/{id}")]
         public async Task<IActionResult> GetContratoPorInmueble(int id)
         {Console.WriteLine("caca");

@@ -14,6 +14,7 @@ using System.Text.Json;
 using Microsoft.Extensions.Hosting;
 using System.Text.RegularExpressions;
 using APIINMOBILIARIA.Models;
+using InmobiliariaGutierrez.Models.VO;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -84,6 +85,9 @@ namespace APIINMOBILIARIA.Controllers
         return BadRequest("Invalid user ID format in token");
     }
 		}
+
+        // GET api/<controller>/GetInmueblescontrato
+
 
 [HttpPost("cargar")]
 public async Task<IActionResult> Cargar([FromForm] IFormFile imagen, [FromForm] string inmueble)
