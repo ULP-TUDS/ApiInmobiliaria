@@ -1,5 +1,4 @@
 
-using InmobiliariaGutierrez.Models.VO;
 using Microsoft.EntityFrameworkCore;
 
 using APIINMOBILIARIA.Models.VO;

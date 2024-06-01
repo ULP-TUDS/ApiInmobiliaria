@@ -8,7 +8,7 @@
 using APIINMOBILIARIA.Models.VO;
 
 
-namespace InmobiliariaGutierrez.Models.VO;
+
 
     public class Contrato
     {

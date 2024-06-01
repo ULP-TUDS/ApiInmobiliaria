@@ -14,7 +14,6 @@ using System.Text.Json;
 using Microsoft.Extensions.Hosting;
 using System.Text.RegularExpressions;
 using APIINMOBILIARIA.Models;
-using InmobiliariaGutierrez.Models.VO;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
