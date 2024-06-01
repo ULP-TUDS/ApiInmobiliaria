@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-05-2024 a las 01:42:47
+-- Tiempo de generación: 02-06-2024 a las 00:55:37
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.0.30
 
@@ -135,11 +135,14 @@ INSERT INTO `inmuebles` (`id`, `propietarioId`, `inmuebleTipoId`, `direccion`, `
 (7, 7, '2', 'direccion3', 3, 'Comercial', 200500, 1, NULL),
 (8, 8, '1', 'direccion4', 1, 'Comercial', 200500, 1, NULL),
 (9, 1, '2', 'juana', 1, 'Residencial', 10, 1, NULL),
-(10, 50, 'Casa', 'casa bkanca', 2, 'Comercial', 5000, 1, '/Uploads\\avatar_4.jpg'),
-(12, 50, 'Departamento', 'Pucara', 10, 'Residencial', 70000, 1, '/Uploads\\avatar_4.jpg'),
-(15, 50, 'Departamento', 'Pucaraos', 10, 'Residencial', 80000, 1, '/Uploads/avatar_4.jpg'),
-(41, 50, 'Casa', 'direccion', 5, 'Residencial', 2, 0, 'uploads\\8e1f7d86-eaf8-4e36-99d9-2dd40bf746fe.jpg'),
-(42, 50, 'Casa', 'cazorla', 6, 'Residencial', 50, 1, 'uploads\\42ee8341-85dc-4a58-85fa-287435d7ef7d.jpg');
+(10, 50, 'Casa', 'casa bkanca', 2, 'Comercial', 5000, 1, 'uploads\\1dedbd08-9455-4868-8e48-89dc76253285.jpg'),
+(12, 50, 'Departamento', 'Pucara', 10, 'Residencial', 70000, 0, '/Uploads\\42ee8341-85dc-4a58-85fa-287435d7ef7d.jpg'),
+(15, 50, 'Departamento', 'Pucaraos', 10, 'Residencial', 80000, 1, 'uploads\\8f03e138-a41b-4e6d-9890-dc23168fff5c.jpg'),
+(41, 50, 'Casa', 'direccion', 5, 'Residencial', 2, 1, 'uploads\\9dff3082-1d80-4339-949a-49ca65880546.jpg'),
+(42, 50, 'Casa', 'cazorla', 6, 'Residencial', 50, 1, 'uploads\\42ee8341-85dc-4a58-85fa-287435d7ef7d.jpg'),
+(43, 50, 'Casa', 'cristiab', 5, 'Residencial', 5000, 1, 'uploads\\d62b1615-0b04-45a8-ac8d-b39e9aa84e2d.jpg'),
+(44, 50, 'Casa', 'avenida lafinur 360', 1, 'Residencial', 350000, 1, 'uploads\\1744b01d-6529-426c-b2b3-d9b3dcd95efa.jpg'),
+(45, 50, 'Casa', 'santo ortiz 534', 5, 'Residencial', 450000, 1, 'uploads\\4d8feff7-03a5-475b-8bae-c12af6169d23.jpg');
 
 -- --------------------------------------------------------
 
@@ -250,7 +253,7 @@ INSERT INTO `propietarios` (`id`, `dni`, `nombre`, `apellido`, `telefono`, `emai
 (9, 'dni9', 'nombre9', 'apellido9', 'telefono9', 'email@gmail.com9', 'domicilio9', 'B1i+YL7S7zFRLyoit6h7qDAkM+WItPrMjqkR+B5YXm4='),
 (10, 'dni10', 'nombre10', 'apellido10', 'telefono10', 'email@gmail.com10', 'domicilio10', 'B1i+YL7S7zFRLyoit6h7qDAkM+WItPrMjqkR+B5YXm4='),
 (19, '890234342', 'papelon', 'lcoo', '983243247823', 'kjaskdjasdasd@mil.com', 'lujan', 'B1i+YL7S7zFRLyoit6h7qDAkM+WItPrMjqkR+B5YXm4='),
-(50, 'luzza@hotm', 'luzza@hotmail.com', 'Mauro', '11111111111', 'luzza@hotmail.com', 'calabza', '3A0G2+zJ3luLnlC44+Xe5HGw/9RWJNoyF2XZACvev20=');
+(50, '34428733', 'Ruben Cristian', 'Carriel', '11111111111', 'rv98478@gmail.com', 'avenida del fundador 360', 'WEwi+c1mI2Yqghnf37WJ2sLy9k27lkF7Lcj9MxgVSok=');
 
 -- --------------------------------------------------------
 
@@ -410,7 +413,7 @@ ALTER TABLE `contratos`
 -- AUTO_INCREMENT de la tabla `inmuebles`
 --
 ALTER TABLE `inmuebles`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 
 --
 -- AUTO_INCREMENT de la tabla `inmuebletipos`
